@@ -1,5 +1,5 @@
 {
-  "name": "react_app",
+  "name": "suits_me",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express-stormpath": "^3.0.1"
+    "express": "^4.13.4",
+    "express-stormpath": "^3.1.0"
   }
 }

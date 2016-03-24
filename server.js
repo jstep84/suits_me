@@ -1,9 +1,9 @@
 var express = require('express');
-var stormpath = require('stormpath');
+var stormpath = require('express-stormpath');
 
 var app = express();
 
-stormpathinit(app, {
+stormpath.init(app, {
 	website: true
 });
 
